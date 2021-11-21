@@ -154,6 +154,12 @@ paths:
           required: true
           type: "string"
           format: "string"
+        - name: "units"
+          in: "query"
+          description: "ID of task to return"
+          required: true
+          type: "string"
+          format: "string"
       responses:
         200:
           description: "successful operation"
@@ -196,16 +202,6 @@ paths:
         404:
           description: "not found"
   
-
-
-
-    
-
-       
-
-  
-
-
 
 
 definitions:

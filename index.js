@@ -25,10 +25,8 @@ app.use(cors({
 }));
 
 const port = process.env.PORT || 3000;
-const router = require('./router')
+const router = require('./router');
 // crypto.randomBytes(64).toString('hex');
-
-
 mongoose.Promise = global.Promise;
 
 // Connecting to the database
